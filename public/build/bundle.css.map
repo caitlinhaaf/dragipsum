@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "bundle.css",
+  "sources": [
+    "../../src/App.svelte"
+  ],
+  "sourcesContent": [
+    "<script>\n\timport {safeWords, nsfw} from './phrases'\n\n\tlet activeIpsum = ''\n\tlet nsfwMode = false // TODO: set with form inputs\n\tlet numSentences = 4 // TODO: set with form inputs\n\n\tfunction getIpsum(){\n\t\t//if using nsfw mode, combine phrase arrs\n\t\tlet allPhrases = nsfwMode ? [...safeWords, ...nsfw] : [...safeWords]\n\t\t// \n\t\tlet ipsum = ``\n\t\tlet i=0;\n\t\twhile(i<numSentences){\n\t\t\tipsum += `${buildSentence(allPhrases)}`\n\t\t\ti++;\n\t\t}\n\t\tactiveIpsum = ipsum;\n\t}\n\n\tfunction buildSentence(phrasesArr){\n\t\tlet i=0;\n\t\tlet sentence = ``;\n\t\twhile(i<5){\n\t\t\tconst phrase = phrasesArr[Math.floor(phrasesArr.length*Math.random())]\n\t\t\tsentence += `${i===0 ? ` ${phrase.charAt(0).toUpperCase()}` + phrase.substring(1) : phrase }${i===4 ? `.`  : ` `}`\n\t\t\ti++\n\t\t}\n\t\treturn sentence;\n\t}\n</script>\n\n<main>\n\t<h1>Drag Race Ipsum</h1>\n\n\t<p>\n\t\t{activeIpsum}\n\t</p>\n\n\t<button on:click={getIpsum}>\t\n\t\tMake Ipsum\n\t</button>\n\n</main>\n\n<style>\n\tmain {\n\t\ttext-align: center;\n\t\tpadding: 1em;\n\t\tmax-width: 240px;\n\t\tmargin: 0 auto;\n\t}\n\n\th1 {\n\t\tcolor: #ff3e00;\n\t\ttext-transform: uppercase;\n\t\tfont-size: 4em;\n\t\tfont-weight: 100;\n\t}\n\n\t@media (min-width: 640px) {\n\t\tmain {\n\t\t\tmax-width: none;\n\t\t}\n\t}\n</style>"
+  ],
+  "names": [],
+  "mappings": "AA8CC,IAAI,eAAC,CAAC,AACL,UAAU,CAAE,MAAM,CAClB,OAAO,CAAE,GAAG,CACZ,SAAS,CAAE,KAAK,CAChB,MAAM,CAAE,CAAC,CAAC,IAAI,AACf,CAAC,AAED,EAAE,eAAC,CAAC,AACH,KAAK,CAAE,OAAO,CACd,cAAc,CAAE,SAAS,CACzB,SAAS,CAAE,GAAG,CACd,WAAW,CAAE,GAAG,AACjB,CAAC,AAED,MAAM,AAAC,YAAY,KAAK,CAAC,AAAC,CAAC,AAC1B,IAAI,eAAC,CAAC,AACL,SAAS,CAAE,IAAI,AAChB,CAAC,AACF,CAAC"
+}
