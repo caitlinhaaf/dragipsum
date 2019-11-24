@@ -1,13 +1,12 @@
 <script>
 	import {safeWords, nsfw} from './phrases'
-	import {numParagraphs, numSentences} from './stores.js'
+	import {numParagraphs, numSentences, nsfwMode} from './stores.js'
 
 	import LengthSelect from './LengthSelect.svelte'
 	import NumParagraphsSelect from './NumParagraphSelect.svelte'
+	import NSFWcheck from './NSFWcheck.svelte'
 
 	let activeIpsum = []
-	let nsfwMode = false
-
 	$: allPhrases = nsfwMode ?  [...safeWords, ...nsfw] : [...safeWords];
 
 	let numParagraphs_value, numSentence_value;
@@ -55,25 +54,32 @@
 
 	<section class="twoCol">
 		<NumParagraphsSelect/>
-		
 		<LengthSelect/>
 	</section>
 
-	<label>
-		<input type=checkbox bind:checked={nsfwMode}>
-		Add some Charisma, Uniqueness, Nerve, and Talent (NSFW)
-	</label>
+	<NSFWcheck/>
 
 	<button on:click={getIpsum}>	
 		Make Ipsum
 	</button>
 
 	<p>
-		<!-- {activeIpsum} -->
 		{#each activeIpsum as paragraph}
 			<p>{paragraph}</p>
 		{/each}
 	</p>
+
+	<footer>
+		<span>Created by <a href="http://www.caitlinhaaf.com" target="_blank" rel="noopener noreferrer">Caitlin Haaf</a></span>
+		<span>View code on <a href="https://github.com/caitlinhaaf/dragipsum" target="_blank" rel="noopener noreferrer">Github</a></span>
+		<div>
+			<a class="twitter-share-button"
+			href="https://twitter.com/intent/tweet?text=Hello%20world" data-size="large">
+			Tweet</a>
+			<span>Share on Twitter</span>
+		</div>
+		
+	</footer>
 
 </main>
 
@@ -81,14 +87,13 @@
 	main {
 		padding: 1em;
 		width: 80%;
-		max-width: 1000px;
+		max-width: 800px;
 		margin: 0 auto;
 	}
-
-	h1{
-		/* color: #9900ff; */
-		font-size: 4em;
-		font-weight: 100;
-		margin: 0;
+	button{
+		display: block;
+		margin: .5rem auto;
+		min-width: 15rem;
 	}
+
 </style>

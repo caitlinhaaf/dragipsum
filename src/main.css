@@ -5,9 +5,6 @@ pink: f9557b
 teal: #579d9c
 yellow: #f9c35e
 */
-*, body{
-	transition: all .3s ease-in-out;
-}
 
 html, body {
 	position: relative;
@@ -24,37 +21,16 @@ body {
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 
-footer{
-	background-color: #330850;
-	width: 100%;
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	padding: .5rem;
-	font-size: .8rem;
-
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-}
-.footer > *{
-	display: block;
-}
-
-h1{
-	font-size: 4em;
-	font-weight: 100;
-	margin: 0;
-}
-
 a {
 	color: #f9557b;
 }
+
 a:hover {
-	color: #f9c35e;
+	text-decoration: underline;
 }
+
 a:visited {
-	color: #bb32a1;
+	color: rgb(0,80,160);
 }
 
 label {
@@ -85,20 +61,14 @@ button {
 	outline: none;
 	border: 0;
 	cursor: pointer;
+
 	padding: 1rem 2rem;
-	border-radius: .25rem;
-	box-shadow: 0px 2px 2px 1px rgba(0,0,0,.25);
 }
-button:hover,
-button:active{
-	background-color:  #a32a8d;
-}
-button:hover,
-button:focus{
-	box-shadow: 0px 4px 4px 4px rgba(0,0,0,.25);
+button:active {
+	background-color: #ddd;
 }
 button:focus {
-	border: 1px solid #f9557b;
+	border-color: #666;
 }
 
 .twoCol{

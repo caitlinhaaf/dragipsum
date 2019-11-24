@@ -11,3 +11,5 @@ function createNumParagraphs() {
 export const numParagraphs = createNumParagraphs();
 
 export const numSentences = writable(4);
+
+export const nsfwMode = writable(false);

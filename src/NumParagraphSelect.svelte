@@ -13,10 +13,10 @@
 
 <style>
     .numParagraphsSelect{
-            display: flex;
-            align-items: center;
+        display: flex;
+        align-items: center;
     }
-    .numParagraphsSelect button{
+    button{
         color: white;
         border: none;
         background-color: transparent;
@@ -25,6 +25,15 @@
         padding: 1rem;
         margin: 0;
         cursor: pointer;
+        box-shadow: none;
+    }
+    button:hover{
+        color: #f9557b;
+        box-shadow: none;
+    }
+    button:focus{
+        outline: 1px solid #f9557b;
+        color: #f9557b;
     }
     .numParagraphs{
         font-size: 2em;
