@@ -1,31 +1,41 @@
 <script>
     import {numSentences} from './stores.js'
+    import Lipstick from './Lipstick.svelte'
 </script>
 
 <div>
     <h2>Paragraph Length</h2>
-    <div class="inputContainer">
-        <label>
-            <input type=radio tabindex="0" bind:group={$numSentences} value={4}>
-            <span>Short</span>
-        </label>
 
-        <label>
-            <input type=radio tabindex="0" bind:group={$numSentences} value={8}>
-            <span>Medium</span>
-        </label>
+    <div class="flexContainer">
 
-        <label>
-            <input type=radio tabindex="0" bind:group={$numSentences} value={16}>
-            <span>Long</span>
-        </label>
+        <Lipstick class="svg"/>
+
+        <div class="inputContainer">
+            <label>
+                <input type=radio tabindex="0" bind:group={$numSentences} value={4}>
+                <span>Short</span>
+            </label>
+
+            <label>
+                <input type=radio tabindex="0" bind:group={$numSentences} value={8}>
+                <span>Medium</span>
+            </label>
+
+            <label>
+                <input type=radio tabindex="0" bind:group={$numSentences} value={16}>
+                <span>Long</span>
+            </label>
+        </div>
+    
     </div>
+    
     
 </div>
 
 <style>
-    .inputContainer{
+    .flexContainer{
         display: flex;
+        align-items: center;
     }
     input{
         position: absolute;

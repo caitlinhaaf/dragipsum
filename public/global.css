@@ -5,6 +5,8 @@ pink: f9557b
 teal: #579d9c
 yellow: #f9c35e
 */
+@import url("https://use.typekit.net/vfr8vyv.css");
+
 *, body{
 	transition: all .3s ease-in-out;
 }
@@ -41,10 +43,20 @@ footer{
 	display: block;
 }
 
+h1, h2, h3, h4, h5, h6{
+	color: #f9557b;
+	margin: 0 0 1em 0;
+}
+
 h1{
-	font-size: 4em;
+	font-size: 7vw;
 	font-weight: 100;
 	margin: 0;
+	text-align: center;
+	font-family: eds-market-bold-script, sans-serif;
+}
+h2, h3, h4, h5, h6{
+	font-family: eds-market-main-script, sans-serif;
 }
 
 a {
