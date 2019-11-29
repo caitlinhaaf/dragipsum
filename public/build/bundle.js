@@ -569,7 +569,7 @@ var app = (function () {
     			style = svg_element("style");
     			t0 = text(".cls-1{fill:#f9557b;}\n            .cls-2{fill:#b2325a;}\n            .cls-3{fill:#bb32a1;}\n            .cls-4{fill:#841e76;}\n            .cls-5{fill:none;stroke:#841e76;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;}\n        ");
     			title = svg_element("title");
-    			t1 = text("Artboard 1");
+    			t1 = text("Lipstick Length Icon");
     			g0 = svg_element("g");
     			path0 = svg_element("path");
     			path1 = svg_element("path");
@@ -587,67 +587,67 @@ var app = (function () {
     			path11 = svg_element("path");
     			path12 = svg_element("path");
     			path13 = svg_element("path");
-    			add_location(style, file, 12, 8, 281);
-    			add_location(defs, file, 11, 4, 266);
-    			add_location(title, file, 20, 4, 564);
+    			add_location(style, file, 12, 8, 285);
+    			add_location(defs, file, 11, 4, 270);
+    			add_location(title, file, 20, 4, 568);
     			attr_dev(path0, "class", "cls-1");
     			attr_dev(path0, "d", "M200.44,467c-21.36,0-39.14-10.1-39.89-15.15l0-.13V207.15c5.38,2.4,50.36,22.7,65.28,36.27,10.73,9.76,13.71,18.88,14.53,23.44l0,.25a18.71,18.71,0,0,1,0,6.93l-.08.32a1,1,0,0,0,.06.65V451.72l0,.13C239.58,456.9,221.8,467,200.44,467Z");
-    			add_location(path0, file, 25, 8, 709);
+    			add_location(path0, file, 25, 8, 723);
     			attr_dev(path1, "class", "cls-2");
     			attr_dev(path1, "d", "M161.52,208.69c9.31,4.21,49.7,22.82,63.61,35.47,10.51,9.56,13.42,18.44,14.22,22.88l0,.13,0,.1a17.82,17.82,0,0,1,0,6.56l0,.1,0,.19a1.94,1.94,0,0,0,0,1.07V451.6s0,.07,0,.1c-.55,3.68-16.58,14.3-38.9,14.3s-38.35-10.62-38.9-14.3c0,0,0-.06,0-.1V208.69m-2-3.5s0,0,0,0V452h0c.83,5.56,18.81,16,40.88,16s40.05-10.44,40.88-16h0V274.68l-.09-.08.09-.35a19.64,19.64,0,0,0,0-7.32,2,2,0,0,0-.05-.24c-1.22-6.77-5.46-15.48-14.84-24C210.37,228,160.4,206,160.4,206s-.71-.81-.86-.81Z");
-    			add_location(path1, file, 25, 261, 962);
+    			add_location(path1, file, 25, 261, 976);
     			attr_dev(path2, "class", "cls-1");
     			attr_dev(path2, "d", "M229.68,279.9c-6.86,0-14.82-3.81-22.42-10.72-15.35-14-43.52-59.06-46.2-63.37,9.47,4.38,50.72,23.86,64.74,36.61,10.73,9.76,13.71,18.88,14.53,23.44l0,.25a18.71,18.71,0,0,1,0,6.93,7.81,7.81,0,0,1-1.16,2.88c-1.75,2.5-5.32,4-9.54,4Z");
-    			add_location(path2, file, 25, 749, 1450);
+    			add_location(path2, file, 25, 749, 1464);
     			attr_dev(path3, "class", "cls-2");
     			attr_dev(path3, "d", "M163.68,208.13c13.16,6.19,48.7,23.44,61.45,35,10.51,9.56,13.42,18.44,14.22,22.88l0,.13,0,.1a17.82,17.82,0,0,1,0,6.56,7.12,7.12,0,0,1-1,2.52c-1.56,2.22-4.82,3.55-8.72,3.55-6.61,0-14.33-3.71-21.75-10.46-12.68-11.53-35.68-46.65-44.25-60.31M159.52,204s-.4,1.78.48,2c3.83,6.27,31.59,50.28,46.58,63.92,8.91,8.1,17,11,23.1,11,4.93,0,8.58-1.88,10.36-4.4a8.94,8.94,0,0,0,1.32-3.25,19.64,19.64,0,0,0,0-7.32,2,2,0,0,0-.05-.24c-1.22-6.77-5.46-15.48-14.84-24C210.37,227,159.52,204,159.52,204Z");
-    			add_location(path3, file, 25, 1002, 1703);
+    			add_location(path3, file, 25, 1002, 1717);
     			attr_dev(g0, "id", "lipstickProduct");
-    			attr_dev(g0, "class", "svelte-pdesjw");
+    			attr_dev(g0, "class", "svelte-1oozrk7");
     			toggle_class(g0, "long", ctx.lengthClass === 16);
     			toggle_class(g0, "medium", ctx.lengthClass === 8);
-    			add_location(g0, file, 21, 4, 594);
+    			add_location(g0, file, 21, 4, 608);
     			attr_dev(path4, "class", "cls-3");
     			attr_dev(path4, "d", "M200,590c-35.84,0-65-10.77-65-24V436H265V566C265,579.23,235.84,590,200,590Z");
-    			add_location(path4, file, 27, 34, 2256);
+    			add_location(path4, file, 27, 34, 2270);
     			attr_dev(path5, "class", "cls-4");
     			attr_dev(path5, "d", "M264,437V566c0,11.11-25.72,23-64,23s-64-11.89-64-23V437H264m2-2H134V566c0,13.81,29.55,25,66,25s66-11.19,66-25V435Z");
-    			add_location(path5, file, 27, 135, 2357);
+    			add_location(path5, file, 27, 135, 2371);
     			attr_dev(ellipse, "class", "cls-3");
     			attr_dev(ellipse, "cx", "200");
     			attr_dev(ellipse, "cy", "436");
     			attr_dev(ellipse, "rx", "65");
     			attr_dev(ellipse, "ry", "27");
-    			add_location(ellipse, file, 27, 275, 2497);
+    			add_location(ellipse, file, 27, 275, 2511);
     			attr_dev(path6, "class", "cls-4");
     			attr_dev(path6, "d", "M200,410c34.69,0,64,11.91,64,26s-29.31,26-64,26-64-11.91-64-26,29.31-26,64-26m0-2c-36.45,0-66,12.54-66,28s29.55,28,66,28,66-12.54,66-28-29.55-28-66-28Z");
-    			add_location(path6, file, 27, 333, 2555);
+    			add_location(path6, file, 27, 333, 2569);
     			attr_dev(path7, "class", "cls-3");
     			attr_dev(path7, "d", "M200,450c-13.78,0-27-1.92-37.12-5.41-9.51-3.27-15.17-7.52-15.53-11.68a.63.63,0,0,0,0-.19V319.53l19.28,8.39.12,0,34.6,10a.9.9,0,0,0,.28,0l.21,0,32.4-7a1.2,1.2,0,0,0,.31-.13l18.16-11.07v113a.57.57,0,0,0,0,.18C252,441,230.16,450,200,450Z");
-    			add_location(path7, file, 27, 510, 2732);
+    			add_location(path7, file, 27, 510, 2746);
     			attr_dev(path8, "class", "cls-4");
     			attr_dev(path8, "d", "M148.32,321.05l17.88,7.78.24.09,34.6,10a2.16,2.16,0,0,0,.56.08A2,2,0,0,0,202,339l32.4-7a2,2,0,0,0,.62-.24l16.64-10.15V432.61l0,.22c-.32,3.69-5.87,7.73-14.86,10.82-10,3.45-23.12,5.35-36.79,5.35-28.76,0-51-8.54-51.65-16.17l0-.22V321.05M253.68,318,234,330l-32.4,7L167,327l-20.68-9V433h0c.81,9.43,24.51,18,53.64,18s52.83-8.57,53.64-18h0V318Z");
-    			add_location(path8, file, 27, 770, 2992);
+    			add_location(path8, file, 27, 770, 3006);
     			attr_dev(path9, "class", "cls-4");
     			attr_dev(path9, "d", "M172,336a65.65,65.65,0,0,1-15-6V441.23c2.37,1.26,7,3.31,15,5.13Z");
-    			add_location(path9, file, 27, 1133, 3355);
+    			add_location(path9, file, 27, 1133, 3369);
     			attr_dev(path10, "class", "cls-4");
     			attr_dev(path10, "d", "M146,449.84V578.31A94.24,94.24,0,0,0,188,589V461.77A99.8,99.8,0,0,1,146,449.84Z");
-    			add_location(path10, file, 27, 1223, 3445);
+    			add_location(path10, file, 27, 1223, 3459);
     			attr_dev(path11, "class", "cls-5");
     			attr_dev(path11, "d", "M135,464c0,15.46,28.55,28,65,28s65-12.54,65-28");
-    			add_location(path11, file, 27, 1328, 3550);
+    			add_location(path11, file, 27, 1328, 3564);
     			attr_dev(path12, "class", "cls-3");
     			attr_dev(path12, "d", "M200,339c-29.05,0-52.68-10.09-52.68-22.5,0-5.14,4.22-10.14,11.93-14.17v6.53a10.4,10.4,0,0,0-.5,3.14c0,11.21,18.23,20,41.5,20s41.5-8.79,41.5-20a10.4,10.4,0,0,0-.5-3.14V302.6c7.39,4,11.43,8.89,11.43,13.9C252.68,328.91,229.05,339,200,339Z");
-    			add_location(path12, file, 27, 1400, 3622);
+    			add_location(path12, file, 27, 1400, 3636);
     			attr_dev(path13, "class", "cls-4");
     			attr_dev(path13, "d", "M158.25,304v4.69a11.32,11.32,0,0,0-.5,3.29c0,11.78,18.67,21,42.5,21s42.5-9.22,42.5-21a11.32,11.32,0,0,0-.5-3.29v-4.39c6.11,3.63,9.43,7.89,9.43,12.18C251.68,328.15,228,338,200,338s-51.68-9.85-51.68-21.5c0-4.43,3.5-8.79,9.93-12.48m2-3.31c-8.66,4.17-13.93,9.71-13.93,15.79,0,13,24,23.5,53.68,23.5s53.68-10.52,53.68-23.5c0-6-5.08-11.4-13.43-15.54V309a9.23,9.23,0,0,1,.5,3c0,10.49-18.13,19-40.5,19s-40.5-8.51-40.5-19a9.23,9.23,0,0,1,.5-3v-8.31Z");
-    			add_location(path13, file, 27, 1661, 3883);
+    			add_location(path13, file, 27, 1661, 3897);
     			attr_dev(g1, "id", "lipstickComponent");
-    			add_location(g1, file, 27, 8, 2230);
+    			add_location(g1, file, 27, 8, 2244);
     			attr_dev(svg, "xmlns", "http://www.w3.org/2000/svg");
-    			attr_dev(svg, "viewBox", "0 0 400 600");
-    			attr_dev(svg, "class", "svgViewBox svelte-pdesjw");
+    			attr_dev(svg, "viewBox", "100 100 200 500");
+    			attr_dev(svg, "class", "svgViewBox svelte-1oozrk7");
     			add_location(svg, file, 10, 0, 180);
     		},
     		l: function claim(nodes) {
@@ -1098,11 +1098,11 @@ var app = (function () {
     			span = element("span");
     			span.textContent = "Add some Charisma, Uniqueness, Nerve, and Talent (NSFW)";
     			attr_dev(input, "type", "checkbox");
-    			attr_dev(input, "class", "svelte-1nqlize");
+    			attr_dev(input, "class", "svelte-1u1kfjm");
     			add_location(input, file$3, 5, 4, 73);
-    			attr_dev(span, "class", "svelte-1nqlize");
+    			attr_dev(span, "class", "svelte-1u1kfjm");
     			add_location(span, file$3, 6, 4, 124);
-    			attr_dev(label, "class", "svelte-1nqlize");
+    			attr_dev(label, "class", "svelte-1u1kfjm");
     			add_location(label, file$3, 4, 0, 61);
     			dispose = listen_dev(input, "change", ctx.input_change_handler);
     		},
@@ -1184,7 +1184,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (67:2) {#each activeIpsum as paragraph}
+    // (72:2) {#each activeIpsum as paragraph}
     function create_each_block(ctx) {
     	let p;
     	let t_value = ctx.paragraph + "";
@@ -1194,7 +1194,7 @@ var app = (function () {
     		c: function create() {
     			p = element("p");
     			t = text(t_value);
-    			add_location(p, file$4, 67, 3, 1503);
+    			add_location(p, file$4, 72, 3, 1581);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -1212,7 +1212,7 @@ var app = (function () {
     		block,
     		id: create_each_block.name,
     		type: "each",
-    		source: "(67:2) {#each activeIpsum as paragraph}",
+    		source: "(72:2) {#each activeIpsum as paragraph}",
     		ctx
     	});
 
@@ -1223,26 +1223,28 @@ var app = (function () {
     	let main;
     	let h1;
     	let t1;
-    	let section;
+    	let section0;
     	let t2;
     	let t3;
     	let t4;
-    	let button;
+    	let button0;
     	let t6;
-    	let p;
-    	let t7;
+    	let section1;
+    	let button1;
+    	let t8;
+    	let t9;
     	let footer;
     	let span0;
-    	let t8;
-    	let a0;
     	let t10;
+    	let a0;
+    	let t12;
     	let span1;
-    	let t11;
-    	let a1;
     	let t13;
+    	let a1;
+    	let t15;
     	let div;
     	let a2;
-    	let t15;
+    	let t17;
     	let span2;
     	let current;
     	let dispose;
@@ -1262,66 +1264,73 @@ var app = (function () {
     			h1 = element("h1");
     			h1.textContent = "Drag Race Ipsum";
     			t1 = space();
-    			section = element("section");
+    			section0 = element("section");
     			create_component(numparagraphsselect.$$.fragment);
     			t2 = space();
     			create_component(lengthselect.$$.fragment);
     			t3 = space();
     			create_component(nsfwcheck.$$.fragment);
     			t4 = space();
-    			button = element("button");
-    			button.textContent = "Make Ipsum";
+    			button0 = element("button");
+    			button0.textContent = "Make Ipsum";
     			t6 = space();
-    			p = element("p");
+    			section1 = element("section");
+    			button1 = element("button");
+    			button1.textContent = "Copy Text";
+    			t8 = space();
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
     				each_blocks[i].c();
     			}
 
-    			t7 = space();
+    			t9 = space();
     			footer = element("footer");
     			span0 = element("span");
-    			t8 = text("Created by ");
+    			t10 = text("Created by ");
     			a0 = element("a");
     			a0.textContent = "Caitlin Haaf";
-    			t10 = space();
+    			t12 = space();
     			span1 = element("span");
-    			t11 = text("View code on ");
+    			t13 = text("View code on ");
     			a1 = element("a");
     			a1.textContent = "Github";
-    			t13 = space();
+    			t15 = space();
     			div = element("div");
     			a2 = element("a");
     			a2.textContent = "Tweet";
-    			t15 = space();
+    			t17 = space();
     			span2 = element("span");
     			span2.textContent = "Share on Twitter";
-    			add_location(h1, file$4, 52, 1, 1281);
-    			attr_dev(section, "class", "twoCol");
-    			add_location(section, file$4, 54, 1, 1308);
-    			attr_dev(button, "class", "svelte-jivzke");
-    			add_location(button, file$4, 61, 1, 1405);
-    			add_location(p, file$4, 65, 1, 1461);
+    			add_location(h1, file$4, 52, 1, 1236);
+    			attr_dev(section0, "class", "twoCol");
+    			add_location(section0, file$4, 54, 1, 1263);
+    			attr_dev(button0, "class", "svelte-xwrms");
+    			add_location(button0, file$4, 61, 1, 1360);
+    			attr_dev(button1, "class", "copyBtn svelte-xwrms");
+    			add_location(button1, file$4, 69, 2, 1499);
+    			attr_dev(section1, "class", "ipsumContainer svelte-xwrms");
+    			toggle_class(section1, "active", ctx.activeIpsum.length >= 1);
+    			add_location(section1, file$4, 65, 1, 1416);
     			attr_dev(a0, "href", "http://www.caitlinhaaf.com");
     			attr_dev(a0, "target", "_blank");
     			attr_dev(a0, "rel", "noopener noreferrer");
-    			add_location(a0, file$4, 72, 19, 1568);
-    			add_location(span0, file$4, 72, 2, 1551);
+    			add_location(a0, file$4, 77, 19, 1652);
+    			add_location(span0, file$4, 77, 2, 1635);
     			attr_dev(a1, "href", "https://github.com/caitlinhaaf/dragipsum");
     			attr_dev(a1, "target", "_blank");
     			attr_dev(a1, "rel", "noopener noreferrer");
-    			add_location(a1, file$4, 73, 21, 1692);
-    			add_location(span1, file$4, 73, 2, 1673);
+    			add_location(a1, file$4, 78, 21, 1776);
+    			add_location(span1, file$4, 78, 2, 1757);
     			attr_dev(a2, "class", "twitter-share-button");
     			attr_dev(a2, "href", "https://twitter.com/intent/tweet?text=Hello%20world");
     			attr_dev(a2, "data-size", "large");
-    			add_location(a2, file$4, 75, 3, 1814);
-    			add_location(span2, file$4, 78, 3, 1943);
-    			add_location(div, file$4, 74, 2, 1805);
-    			add_location(footer, file$4, 71, 1, 1540);
-    			attr_dev(main, "class", "svelte-jivzke");
-    			add_location(main, file$4, 51, 0, 1273);
-    			dispose = listen_dev(button, "click", ctx.getIpsum, false, false, false);
+    			add_location(a2, file$4, 80, 3, 1898);
+    			add_location(span2, file$4, 83, 3, 2027);
+    			add_location(div, file$4, 79, 2, 1889);
+    			add_location(footer, file$4, 76, 1, 1624);
+    			attr_dev(main, "class", "svelte-xwrms");
+    			add_location(main, file$4, 51, 0, 1228);
+    			dispose = listen_dev(button0, "click", ctx.getIpsum, false, false, false);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -1330,34 +1339,36 @@ var app = (function () {
     			insert_dev(target, main, anchor);
     			append_dev(main, h1);
     			append_dev(main, t1);
-    			append_dev(main, section);
-    			mount_component(numparagraphsselect, section, null);
-    			append_dev(section, t2);
-    			mount_component(lengthselect, section, null);
+    			append_dev(main, section0);
+    			mount_component(numparagraphsselect, section0, null);
+    			append_dev(section0, t2);
+    			mount_component(lengthselect, section0, null);
     			append_dev(main, t3);
     			mount_component(nsfwcheck, main, null);
     			append_dev(main, t4);
-    			append_dev(main, button);
+    			append_dev(main, button0);
     			append_dev(main, t6);
-    			append_dev(main, p);
+    			append_dev(main, section1);
+    			append_dev(section1, button1);
+    			append_dev(section1, t8);
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
-    				each_blocks[i].m(p, null);
+    				each_blocks[i].m(section1, null);
     			}
 
-    			append_dev(main, t7);
+    			append_dev(main, t9);
     			append_dev(main, footer);
     			append_dev(footer, span0);
-    			append_dev(span0, t8);
+    			append_dev(span0, t10);
     			append_dev(span0, a0);
-    			append_dev(footer, t10);
+    			append_dev(footer, t12);
     			append_dev(footer, span1);
-    			append_dev(span1, t11);
+    			append_dev(span1, t13);
     			append_dev(span1, a1);
-    			append_dev(footer, t13);
+    			append_dev(footer, t15);
     			append_dev(footer, div);
     			append_dev(div, a2);
-    			append_dev(div, t15);
+    			append_dev(div, t17);
     			append_dev(div, span2);
     			current = true;
     		},
@@ -1374,7 +1385,7 @@ var app = (function () {
     					} else {
     						each_blocks[i] = create_each_block(child_ctx);
     						each_blocks[i].c();
-    						each_blocks[i].m(p, null);
+    						each_blocks[i].m(section1, null);
     					}
     				}
 
@@ -1383,6 +1394,10 @@ var app = (function () {
     				}
 
     				each_blocks.length = each_value.length;
+    			}
+
+    			if (changed.activeIpsum) {
+    				toggle_class(section1, "active", ctx.activeIpsum.length >= 1);
     			}
     		},
     		i: function intro(local) {
@@ -1423,12 +1438,12 @@ var app = (function () {
     	let activeIpsum = [];
     	let numParagraphs_value, numSentence_value;
 
-    	const unsubscribeParagraphs = numParagraphs.subscribe(value => {
-    		numParagraphs_value = value;
+    	numSentences.subscribe(value => {
+    		numSentence_value = value;
     	});
 
-    	const unsubscribeSentences = numSentences.subscribe(value => {
-    		numSentence_value = value;
+    	numParagraphs.subscribe(value => {
+    		numParagraphs_value = value;
     	});
 
     	function getIpsum() {

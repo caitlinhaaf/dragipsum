@@ -12,6 +12,7 @@
         display: block;
         margin: 0 auto;
         padding: 1rem;
+        cursor: pointer;
     }
     input{
         position: absolute;

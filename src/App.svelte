@@ -10,12 +10,12 @@
 	$: allPhrases = nsfwMode ?  [...safeWords, ...nsfw] : [...safeWords];
 
 	let numParagraphs_value, numSentence_value;
-	const unsubscribeParagraphs = numParagraphs.subscribe(value => {
-		numParagraphs_value = value;
-	});
-	const unsubscribeSentences = numSentences.subscribe(value => {
-		numSentence_value = value;
-	});
+	numSentences.subscribe(value => {
+        numSentence_value = value;
+	})
+	numParagraphs.subscribe(value => {
+        numParagraphs_value = value;
+    })
 
 	function getIpsum(){
 		let ipsum = []
@@ -46,7 +46,7 @@
 			i++
 		}
 		return sentence;
-	}
+	}	
 </script>
 
 <main>
@@ -63,11 +63,16 @@
 		Make Ipsum
 	</button>
 
-	<p>
+	<section 
+		class="ipsumContainer"
+		class:active="{activeIpsum.length >= 1}"
+	>
+		<button class="copyBtn">Copy Text</button>
+
 		{#each activeIpsum as paragraph}
 			<p>{paragraph}</p>
 		{/each}
-	</p>
+	</section>
 
 	<footer>
 		<span>Created by <a href="http://www.caitlinhaaf.com" target="_blank" rel="noopener noreferrer">Caitlin Haaf</a></span>
@@ -94,6 +99,23 @@
 		display: block;
 		margin: .5rem auto;
 		min-width: 15rem;
+	}
+	.ipsumContainer{
+		opacity: 0;
+		padding: 0 2rem;
+		color: #430c68;
+		background-color: white;
+		border-radius: 1rem;
+		margin: 1rem 0;
+	}
+	.active{
+		opacity: 1;
+		padding: 1rem 2rem;
+	}
+
+	.copyBtn{
+		margin: .5rem 0 .5rem auto;
+		min-width: 0;
 	}
 
 </style>

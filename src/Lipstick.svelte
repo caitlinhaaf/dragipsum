@@ -8,7 +8,7 @@
     })
 </script>
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" class="svgViewBox">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="100 100 200 500" class="svgViewBox">
     <defs>
         <style>
             .cls-1{fill:#f9557b;}
@@ -18,7 +18,7 @@
             .cls-5{fill:none;stroke:#841e76;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;}
         </style>
     </defs>
-    <title>Artboard 1</title>
+    <title>Lipstick Length Icon</title>
     <g id="lipstickProduct"
     class:long="{lengthClass === 16}"
     class:medium="{lengthClass === 8}"
@@ -30,7 +30,7 @@
 
 <style>
     .svgViewBox{
-        width: 8rem;
+        width: 5rem;
     }
     .medium{
         transform: translateY(-10%);
