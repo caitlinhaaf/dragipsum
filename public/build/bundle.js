@@ -1184,7 +1184,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (72:2) {#each activeIpsum as paragraph}
+    // (94:3) {#each activeIpsum as paragraph}
     function create_each_block(ctx) {
     	let p;
     	let t_value = ctx.paragraph + "";
@@ -1194,7 +1194,7 @@ var app = (function () {
     		c: function create() {
     			p = element("p");
     			t = text(t_value);
-    			add_location(p, file$4, 72, 3, 1581);
+    			add_location(p, file$4, 94, 4, 2193);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -1212,7 +1212,7 @@ var app = (function () {
     		block,
     		id: create_each_block.name,
     		type: "each",
-    		source: "(72:2) {#each activeIpsum as paragraph}",
+    		source: "(94:3) {#each activeIpsum as paragraph}",
     		ctx
     	});
 
@@ -1232,6 +1232,7 @@ var app = (function () {
     	let section1;
     	let button1;
     	let t8;
+    	let div0;
     	let t9;
     	let footer;
     	let span0;
@@ -1242,7 +1243,7 @@ var app = (function () {
     	let t13;
     	let a1;
     	let t15;
-    	let div;
+    	let div1;
     	let a2;
     	let t17;
     	let span2;
@@ -1278,6 +1279,7 @@ var app = (function () {
     			button1 = element("button");
     			button1.textContent = "Copy Text";
     			t8 = space();
+    			div0 = element("div");
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
     				each_blocks[i].c();
@@ -1295,42 +1297,48 @@ var app = (function () {
     			a1 = element("a");
     			a1.textContent = "Github";
     			t15 = space();
-    			div = element("div");
+    			div1 = element("div");
     			a2 = element("a");
     			a2.textContent = "Tweet";
     			t17 = space();
     			span2 = element("span");
     			span2.textContent = "Share on Twitter";
-    			add_location(h1, file$4, 52, 1, 1236);
+    			add_location(h1, file$4, 70, 1, 1773);
     			attr_dev(section0, "class", "twoCol");
-    			add_location(section0, file$4, 54, 1, 1263);
-    			attr_dev(button0, "class", "svelte-xwrms");
-    			add_location(button0, file$4, 61, 1, 1360);
-    			attr_dev(button1, "class", "copyBtn svelte-xwrms");
-    			add_location(button1, file$4, 69, 2, 1499);
-    			attr_dev(section1, "class", "ipsumContainer svelte-xwrms");
+    			add_location(section0, file$4, 72, 1, 1800);
+    			attr_dev(button0, "class", "svelte-nmuleg");
+    			add_location(button0, file$4, 79, 1, 1897);
+    			attr_dev(button1, "class", "copyBtn svelte-nmuleg");
+    			add_location(button1, file$4, 87, 2, 2036);
+    			attr_dev(div0, "id", "selection");
+    			add_location(div0, file$4, 92, 2, 2132);
+    			attr_dev(section1, "class", "ipsumContainer svelte-nmuleg");
     			toggle_class(section1, "active", ctx.activeIpsum.length >= 1);
-    			add_location(section1, file$4, 65, 1, 1416);
+    			add_location(section1, file$4, 83, 1, 1953);
     			attr_dev(a0, "href", "http://www.caitlinhaaf.com");
     			attr_dev(a0, "target", "_blank");
     			attr_dev(a0, "rel", "noopener noreferrer");
-    			add_location(a0, file$4, 77, 19, 1652);
-    			add_location(span0, file$4, 77, 2, 1635);
+    			add_location(a0, file$4, 102, 19, 2300);
+    			add_location(span0, file$4, 102, 2, 2283);
     			attr_dev(a1, "href", "https://github.com/caitlinhaaf/dragipsum");
     			attr_dev(a1, "target", "_blank");
     			attr_dev(a1, "rel", "noopener noreferrer");
-    			add_location(a1, file$4, 78, 21, 1776);
-    			add_location(span1, file$4, 78, 2, 1757);
+    			add_location(a1, file$4, 103, 21, 2424);
+    			add_location(span1, file$4, 103, 2, 2405);
     			attr_dev(a2, "class", "twitter-share-button");
     			attr_dev(a2, "href", "https://twitter.com/intent/tweet?text=Hello%20world");
     			attr_dev(a2, "data-size", "large");
-    			add_location(a2, file$4, 80, 3, 1898);
-    			add_location(span2, file$4, 83, 3, 2027);
-    			add_location(div, file$4, 79, 2, 1889);
-    			add_location(footer, file$4, 76, 1, 1624);
-    			attr_dev(main, "class", "svelte-xwrms");
-    			add_location(main, file$4, 51, 0, 1228);
-    			dispose = listen_dev(button0, "click", ctx.getIpsum, false, false, false);
+    			add_location(a2, file$4, 105, 3, 2546);
+    			add_location(span2, file$4, 108, 3, 2675);
+    			add_location(div1, file$4, 104, 2, 2537);
+    			add_location(footer, file$4, 101, 1, 2272);
+    			attr_dev(main, "class", "svelte-nmuleg");
+    			add_location(main, file$4, 69, 0, 1765);
+
+    			dispose = [
+    				listen_dev(button0, "click", ctx.getIpsum, false, false, false),
+    				listen_dev(button1, "click", copyIpsum, false, false, false)
+    			];
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -1351,9 +1359,10 @@ var app = (function () {
     			append_dev(main, section1);
     			append_dev(section1, button1);
     			append_dev(section1, t8);
+    			append_dev(section1, div0);
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
-    				each_blocks[i].m(section1, null);
+    				each_blocks[i].m(div0, null);
     			}
 
     			append_dev(main, t9);
@@ -1366,10 +1375,10 @@ var app = (function () {
     			append_dev(span1, t13);
     			append_dev(span1, a1);
     			append_dev(footer, t15);
-    			append_dev(footer, div);
-    			append_dev(div, a2);
-    			append_dev(div, t17);
-    			append_dev(div, span2);
+    			append_dev(footer, div1);
+    			append_dev(div1, a2);
+    			append_dev(div1, t17);
+    			append_dev(div1, span2);
     			current = true;
     		},
     		p: function update(changed, ctx) {
@@ -1385,7 +1394,7 @@ var app = (function () {
     					} else {
     						each_blocks[i] = create_each_block(child_ctx);
     						each_blocks[i].c();
-    						each_blocks[i].m(section1, null);
+    						each_blocks[i].m(div0, null);
     					}
     				}
 
@@ -1419,7 +1428,7 @@ var app = (function () {
     			destroy_component(lengthselect);
     			destroy_component(nsfwcheck);
     			destroy_each(each_blocks, detaching);
-    			dispose();
+    			run_all(dispose);
     		}
     	};
 
@@ -1432,6 +1441,25 @@ var app = (function () {
     	});
 
     	return block;
+    }
+
+    function copyIpsum() {
+    	let ipsumContainer = document.querySelector("#selection");
+    	var doc = window.document, selection, range;
+
+    	if (window.getSelection && doc.createRange) {
+    		selection = window.getSelection();
+    		range = doc.createRange();
+    		range.selectNodeContents(ipsumContainer);
+    		selection.removeAllRanges();
+    		selection.addRange(range);
+    	} else if (doc.body.createTextRange) {
+    		range = doc.body.createTextRange();
+    		range.moveToElementText(ipsumContainer);
+    		range.select();
+    	}
+
+    	document.execCommand("copy");
     }
 
     function instance$4($$self, $$props, $$invalidate) {

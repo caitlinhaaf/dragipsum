@@ -27,6 +27,24 @@
 		activeIpsum = ipsum;
 	}
 
+	function copyIpsum(){
+		let ipsumContainer = document.querySelector('#selection')
+
+		var doc = window.document, selection, range;
+		if (window.getSelection && doc.createRange) {
+			selection = window.getSelection();
+			range = doc.createRange();
+			range.selectNodeContents(ipsumContainer);
+			selection.removeAllRanges();
+			selection.addRange(range);
+		} else if (doc.body.createTextRange) {
+			range = doc.body.createTextRange();
+			range.moveToElementText(ipsumContainer);
+			range.select();
+		}
+		document.execCommand("copy");
+	}
+
 	function buildParagraph(){
 		let paragraph = ``
 		let i=0;
@@ -67,11 +85,18 @@
 		class="ipsumContainer"
 		class:active="{activeIpsum.length >= 1}"
 	>
-		<button class="copyBtn">Copy Text</button>
+		<button class="copyBtn" on:click={copyIpsum}>
+			Copy Text
+		</button>
 
-		{#each activeIpsum as paragraph}
-			<p>{paragraph}</p>
-		{/each}
+		<!-- <textarea> -->
+		<div id="selection">
+			{#each activeIpsum as paragraph}
+				<p>{paragraph}</p>
+			{/each}
+		</div>
+		<!-- </textarea> -->
+		
 	</section>
 
 	<footer>
@@ -83,7 +108,6 @@
 			Tweet</a>
 			<span>Share on Twitter</span>
 		</div>
-		
 	</footer>
 
 </main>
@@ -117,5 +141,4 @@
 		margin: .5rem 0 .5rem auto;
 		min-width: 0;
 	}
-
 </style>
